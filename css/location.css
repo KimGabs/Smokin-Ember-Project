@@ -1,0 +1,59 @@
+body{
+    background-color: #fdfcfc;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.navbar-brand img {
+    width: 70px; height: auto; object-fit: cover; object-position: 0px 0px;
+}
+
+.logo {
+    border: 3px solid white;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-expand-lg {
+    
+    background-color: #4b2713!important;
+}
+
+
+.navbar-nav > a{
+    margin-left:0px;
+    margin-right:10px;
+    font-size: larger;
+  }
+
+.bi.bi-cart{
+    margin-bottom: 4px;
+}
+
+.foot{
+    margin-top: auto;
+    height: auto!important;
+    line-height: 30px;
+    background-color: #e0d6c7;
+    color: #6a5748;
+}
+
+.flex-fill{
+    flex: 1 1 auto;
+}
+
+.container.founder{
+    background-color: #4b2713;
+    color: white;
+}
+
+img{
+    width: auto;
+    height: auto;
+}
+
+.container.foot{
+    display: block;
+    bottom: 0;
+}

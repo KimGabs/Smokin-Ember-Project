@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1" />
+
+    <title>Smokin' Ember: Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/shop.css" />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark font-weight-bold">
+      <a class="navbar-brand ml-3" href="#">
+        <div class="logo">Smokin' Ember</div>
+        <!-- <img src="images/logo.png" alt="logo"> -->
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-3 mr-auto my-1">
+          <a class="nav-item nav-link active" href="#"
+            >Shop <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="menu.html">Menu</a>
+          <a class="nav-item nav-link" href="location.html">Location</a>
+          <a class="nav-item nav-link" href="feedback.html">Feedback</a>
+          <a class="nav-item nav-link" href="about.html">About</a>
+        </div>
+        <a
+          class="btn btn-outline-light mr-5 ml-3 my-1 px-3"
+          href="Orderpage.html"
+          role="button"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="15"
+            height="15"
+            fill="currentColor"
+            class="bi bi-cart"
+            viewBox="0 1 16 16"
+          >
+            <path
+              d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+            />
+          </svg>
+          Order now
+        </a>
+      </div>
+    </nav>
+    <!-- Navigation bar -->
+
+    <!-- Central-body -->
+    <div class="container-hover mw-100 flex-fill align-items-center mt-5 mb-3">
+      
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <h2 class="text-center">THE GRILL</h2>
+          <hr />
+          <div class="hovereffects">
+            <img
+              src="img/easy-chicken-teriyaki-4.jpg"
+              alt="pic loading"
+              class="img-fluid"
+              width="100%";
+            />
+            <div class="overlay">
+              <h2 class="text-center">CHICKEN TERIYAKI</h2>
+              <a class="info" href="Orderpage.html">Order now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <h2 class="text-center">MAINS</h2>
+          <hr />
+          <div class="hovereffects">
+            <img
+              src="img/creamy-lengua-in-mushroom-sauce-1.jpg"
+              width="100%"
+              alt="pic loading"
+              class="img-fluid"
+            />
+            <div class="overlay">
+              <h2 class="text-center">LENGUA</h2>
+              <a class="info" href="Orderpage.html">Order now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-auto col-sm-auto col-xs-12">
+          <h2 class="text-center">FRY</h2>
+          <hr />
+          <div class="hovereffects">
+            <img
+              src="img/korean-fried-chicken-5.jpg"
+              width="100%"
+              alt="pic loading"
+              class="img-fluid"
+            />
+            <div class="overlay">
+              <h2 class="text-center">KOREAN FRIED CHICKEN</h2>
+              <a class="info" href="Orderpage.html">Order now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-gallery mx-4 p-4">
+      <p style="color: white" class="h2 col-12 text-center mb-5">Gallery</p>
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <img src="img/fb-3.png" alt="post-1" class="img-fluid col-md-5 col-lg-3">
+            <img src="img/fb-2.png" alt="post-2" class="img-fluid col-md-6 col-lg-4 mt-2 align-top">
+        </div>
+      <div class="row justify-content-center mt-3 mb-4">
+          <img src="img/insta-1.png" alt="post-3" class="col-md-6">
+      </div>
+
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="container-contact mt-3 p-2">
+      <p class="h2 col-12 text-center">Contact us </p>
+        <div class="row p-2 mb-4">
+          <div class="contact-sites col-12 text-center">
+              <a href="https://www.facebook.com/Smokin-Ember-108788044357604/"><img src="https://pnggrid.com/wp-content/uploads/2021/05/Facebook-logo-2021-1024x1024.png" alt="Facebook" class="social-m col-3 mr-3"></a>
+              <a href="https://www.instagram.com/smokinember.mnl/"><img src="https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-svg-vector-for-print.svg" alt="Instagram" class="social-m col-3 ml-3"></a>
+          </div>
+        </div>
+    </div>
+  
+    <!-- Footer -->
+    <footer class="foot mt-auto container-fluid py-lg-0 pb-xl-1 pb-sm-3">
+      <div class="container-fluid text-center text-md-center py-4">
+        <!-- Grid row -->
+        <div class="row">
+          <div class="col-md-6 text-md-right">Kim Carlo N. Gabon</div>
+          <div class="col-md-3 text-md-left">Yuan Francis Fonghe</div>
+        </div>
+        <!-- Grid row -->
+        <div class="row">
+          <div class="px-md-1 col-md-5 text-md-right text-sm-center">
+            Mary Deonce Francisco
+          </div>
+          <div class="col-md-auto text-md-center text-sm-center">
+            Mark Christian Sayson
+          </div>
+          <div class="px-md-0 col-md-3 text-md-left text-sm-center">
+            Jeremy Beatriz D. Jamilla
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- jQuery first, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

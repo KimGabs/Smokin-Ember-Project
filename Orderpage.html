@@ -1,0 +1,254 @@
+<!DOCTYPE html> 
+<html lang="en-US">
+	<head> 
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/Order.css">
+		
+		<title> Smokin' Ember: Order Now </title>
+	</head> 
+	<body class="d-flex flex-column min-vh-100">
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-dark font-weight-bold">
+  
+    <a class="navbar-brand ml-3" href="index.html">
+      <div class="logo">Smokin' Ember</div>
+      <!-- <img src="images/logo.png" alt="logo"> -->
+    </a>
+  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-3 mr-auto my-1">
+              <a class="nav-item nav-link" href="index.html">Shop <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="menu.html">Menu</a>
+              <a class="nav-item nav-link" href="location.html">Location</a>
+              <a class="nav-item nav-link" href="feedback.html">Feedback</a>
+              <a class="nav-item nav-link" href="about.html">About</a>
+            </div>
+            <a class="btn btn-outline-light mr-5 ml-3 my-1 px-3 active" href="Orderpage.html" role="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>   
+              Order now
+            </a>
+          </div>
+    </nav>
+<!-- Navigation bar -->
+		
+		<!-- Order Form -->
+		<div class="container-form d-flex justify-content-center flex-row pr-lg-5 pr-md-4">
+
+			<form class="needs-validation" novalidate>
+				<p class="h4 col-md-12 p-0 font-weight-bold">Contact Information</p>
+				<div class="row">
+					<div class="form-group col-md-12 col-sm-12">
+					  <label for="exampleInputEmail1">Email or mobile phone number</label>
+					  <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Email / Mobile phone number" required>
+					</div>
+				</div>
+
+				<div class="form-check mb-4 font-weight-bold">
+				  <input type="checkbox" class="form-check-input" id="news-offers-check">
+				  <label class="form-check-label" for="news-offers-check">Email me with news and offers</label>
+				</div>
+
+				<p class="h4 col-md-12 pl-0 font-weight-bold">Delivery method</p>
+				
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="gridRadios" id="delivery1" value="Delivery" required checked>
+					<label class="form-check-label" for="delivery">
+						Delivery - Delivery fee will be calculated based on the rate.
+					</label>
+				  </div>
+				  <div class="form-check mb-4">
+					<input class="form-check-input" type="radio" name="gridRadios" id="delivery2" value="pickup" required>
+					<label class="form-check-label" for="pickup">
+					  Pick up - Self pick up or book your own rider to pick up the food for you.
+					</label>
+				  </div>
+
+				<p class="h4 col-md-12 pl-0 font-weight-bold">Shipping address</p>
+				
+				<div class="row">
+					<div class="form-group col col-md-6 col-sm-12">
+						<label for="inputFname">First name</label>
+						<input type="firstname" class="form-control" id="inputEmail4" placeholder="First name" required>
+					  </div>
+					  <div class="form-group col-md-6 col-sm-12">
+						<label for="inputLname">Last name</label>
+						<input type="lastname" class="form-control" id="inputPassword4" placeholder="Last name" required>
+					  </div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-6 col-sm-12">
+						<label for="inputAddress">Address</label>
+						<input type="address" class="form-control" id="inputAddress" placeholder="Address" required>
+					  </div>
+					<div class="form-group col-md-6 col-sm-12">
+						<label for="inputAddress">Landmark (optional)</label>
+						<input type="address" class="form-control" id="inputAddress" placeholder="Landmark (optional)">
+					</div>
+				</div>
+
+				<div class="row">
+					<hr />
+					<div class="form-group col-md-12 col-sm-12">
+						<label for="inputPhonenum">Phone number</label>
+						<input type="phoneNum" class="form-control" id="inputPhonenum" placeholder="Phone number" required>
+					  </div>
+					</div>
+					
+					<label for="inputProduct">Product</label>
+
+					<div class="row product">
+						<div class="col-md-5 col-sm-12">
+							<select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" required>
+								<option value="" selected>Select Product</option>
+								<option value="CT"> Chicken Teriyaki </option>
+								<option value="L"> Lengua </option>
+								<option value="KFC"> Korean Fried Chicken </option>
+							  </select>
+							</div>
+						<div class="col-md-2 col-sm-12 mt-2 mb-2">
+							<input name="Quantity" type="number" class="form-control form-control-sm" placeholder="Qty" required>
+						</div>
+						<div class="col-md-5 col-sm-12">
+							<select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" required>
+								<option value="" selected>Select Size</option>
+								<optgroup label="Chicken Teriyaki">
+									<option value="CT4"> 4 Pieces, No Rice (3-4 pax) </option> 
+									<option value="CT8"> 8 Pieces, No Rice (5-8 pax) </option> 
+									<option value="CT12"> 12 Pieces, No Rice (10-12 pax) </option>
+								</optgroup>
+								<optgroup label="Lengua">
+									<option value="LHlf"> Half Tray (3-4 pax) </option>
+									<option value="LWhl"> Whole Tray (5-7 pax) </option>
+								</optgroup>
+								<optgroup label="Korean Fried Chicken">
+									<option value="KFC1"> 4 Pieces, No Rice (2-3 pax) </option>
+									<option value="KFC2"> 8 Pieces, No Rice (4-6 pax) </option>
+									<option value="KFC3"> 12 Pieces, No Rice (6-8 pax) </option>
+								</optgroup>
+							</select>
+						</div>
+					</div>
+					
+					<ul class="cloned col-md-12 p-0 m-0"></ul>
+					<div class="container d-flex flex-column align-items-center">
+						<div>
+							<a class="btn btn-warning add-more-btn my-2">Add Product</a>
+							<a class="btn btn-warning reset-btn my-2 ">Reset products</a>
+						</div>
+					</div>
+					<hr>
+					<!-- Alert bar -->
+					<div class="alert alert-danger text-center hide" role="alert" id="formAlert">
+						<strong>Warning!</strong> Make sure all required fields are filled and try again.
+					</div>
+					<!-- Alert bar -->
+					<legend><b> Mode of Payment: </b></legend> 
+						<div class="form-check">
+							<input class="form-check-input " type="radio" name="payment" id="delivery1" value="Delivery" required checked>
+							<label class="form-check-label" for="delivery">
+								Online Payment (GCASH, PayMaya, Credit Card)
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="payment" id="delivery1" value="Delivery" required>
+							<label class="form-check-label" for="delivery">
+								Cash on delivery (COD)
+							</label>
+							</label><br>
+						</div>
+						<div class="mt-4">
+							<button type="submit" class="btn btn-primary">Submit</button>
+							<button type="reset" class="btn btn-primary">Reset</button>
+						</div>
+						
+				</form>
+				
+		</div>
+
+		<br>
+		<!-- Order Form -->
+
+		<!-- Footer -->
+			<footer class="foot mt-auto container-fluid py-lg-0 pb-xl-1 pb-sm-3">
+        
+			<div class="container-fluid text-center text-md-center py-4">
+            
+            <!-- Grid row -->
+            <div class="row">
+                <div class="col-md-6 text-md-right">Kim Carlo N. Gabon</div>
+                <div class="col-md-3 text-md-left">Yuan Francis Fonghe</div>
+            </div>
+            <!-- Grid row -->
+            <div class="row ">
+              <div class="px-md-1 col-md-5 text-md-right text-sm-center">Mary Deonce Francisco</div>
+              <div class="col-md-auto text-md-center text-sm-center">Mark Christian Sayson</div>
+              <div class="px-md-0 col-md-3 text-md-left text-sm-center">Jeremy Beatriz D. Jamilla</div>
+            </div>
+
+			</div>
+			</footer>
+		<!-- Footer -->
+		
+		
+		<!-- JQuery and Bootstrap -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script>
+			var template = $(".product").clone();
+			var form = $(".needs-validation");
+			var temp = $(".container-form.cloned");
+			
+			$('.add-more-btn').on('click',function() {
+				$( ".product" ).first().clone().appendTo( ".cloned" ); // Clone again here, to be able to append more than once.
+				// form.append(newFormBlock);
+			});
+
+			$('.reset-btn').on('click',function() {
+				$(".cloned *").remove();
+
+			});
+		</script>
+	
+		<script>
+			// Example starter JavaScript for disabling form submissions if there are invalid fields
+			
+			
+			(function() {
+			'use strict';
+			window.addEventListener('load', function() {
+				// Fetch all the forms we want to apply custom Bootstrap validation styles to
+				var forms = document.getElementsByClassName('needs-validation');
+				// Loop over them and prevent submission
+				var validation = Array.prototype.filter.call(forms, function(form) {
+				form.addEventListener('submit', function(event) {
+					if (form.checkValidity() === false) {
+
+					event.preventDefault();
+					event.stopPropagation();
+					document.getElementById('formAlert').classList.remove('hide')
+					}
+					else{
+						event.preventDefault();
+						window.location.href="Ordercheck.html";
+					}
+					form.classList.add('was-validated');
+				}, false);
+				});
+			}, false);
+			})();
+			</script>
+	
+	</body> 
+</html> 
